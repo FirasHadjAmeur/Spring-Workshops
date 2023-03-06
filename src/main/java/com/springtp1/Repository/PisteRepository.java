@@ -12,5 +12,5 @@ public interface PisteRepository extends CrudRepository<Piste, Long> {
 JpaRepository or PagingAndSortingRepository ou CrudRepository */
 
 // Here we can code additional methods with keywords or with JPQL
-List<Piste>  findAllByPenteLessThanAndLonguerGreaterThan(Integer pente, Integer longueur);
+    List<Piste> findAllByPenteLessThanAndLongeurGreaterThan(Integer pente, Integer longueur);
 }
